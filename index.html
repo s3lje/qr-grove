@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>QR Grove</title>
+</head>
+<body>
+    <canvas id="scene"></canvas>
 
+    <main class="panel">
+        <h1>QR Grove</h1>
+        <p class="subtitle">A piece of nature hidden in a QR code.</p>
+
+        <label for="qr-content">QR code content</label>
+        <input
+            id="qr-content"
+            type="text"
+            value="https://example.com"
+            autocomplete="off">
+
+        <label for="season">Season</label>
+        <select id="season">
+            <option value="spring">Spring</option>
+            <option value="autumn">Autumn</option>
+            <option value="neon">Neon City</option>
+        </select>
+
+        <button id="reveal" type="button">Reveal the tree</button>
+    
+    </main>
+</body>
+</html>
